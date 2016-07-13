@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <script src="javaScript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <title>Aadhar Form</title>
+</head>
+<body>
+<div class="container">
+    <div class="row hidden-xs hidden-sm">
+        <h3  class="pull-left" style="padding-top: 12px"><b>AADHAR EMROLMENT / CORRECTION FORM</b></h3>
+        <img class="pull-right" src="http://res.cloudinary.com//www-medibox-in/image/upload/d/md9news-72f1-8025-2f77-e8e3" width="126px" height="80px" no-repeat>
+    </div>
+    <div class="row hidden-md hidden-lg" align="center">
+        <img src="http://res.cloudinary.com//www-medibox-in/image/upload/d/md9news-72f1-8025-2f77-e8e3" width="126px" height="80px" no-repeat>
+        <p  style="padding-top: 12px"><b>AADHAR EMROLMENT / CORRECTION FORM</b></p>
+    </div>
+    <div class="row border">
+        <div style="background-color: #ffcc99">
+            <p align="center" style="color: #000">Please follow the instructions overleaf while filling up the form. Use capital letters only.</p>
+        </div>
+        <form class="form-horizontal">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="text-align: center">
+                <ul class="nav nav-tabs hidden-sm hidden-xs" id="mytabs" style="display: block;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0;-webkit-margin-end: 0;-webkit-padding-start: 25%">
+                    <li class="active" style="text-align:-webkit-match-parent;display: list-item">
+                        <a href="#personal" data-toggle="tab" style="margin: 0; padding-top: 10px; padding-right: 10px;padding-bottom: 10px;padding-left: 10px;background: none;border: none;line-height: 1.42857143; cursor: auto"><span class="badge badgeStyle" >1</span>&nbsp;Personal Details</a>
+                    </li>
+                    <li >
+                        <a href="#address" data-toggle="tab" style="margin: 0; padding-top: 10px; padding-right: 10px;padding-bottom: 10px;padding-left: 10px;background: none;border: none;line-height: 1.42857143"><span class="badge badgeStyle" >2</span>&nbsp;Address Details</a>
+                    </li>
+                    <li >
+                        <a href="#uidai" data-toggle="tab" style="margin: 0; padding-top: 10px; padding-right: 10px;padding-bottom: 10px;padding-left: 10px;background: none;border: none;line-height: 1.42857143"><span class="badge badgeStyle" >3</span>&nbsp;UIDAI Details</a>
+                    </li>
+                    <li >
+                        <a href="#verification" data-toggle="tab" style="margin: 0; padding-top: 10px; padding-right: 10px;padding-bottom: 10px;padding-left: 10px;background: none;border: none;line-height: 1.42857143"><span class="badge badgeStyle" >4</span>&nbsp;Verification Details</a>
+                    </li>
+                </ul>
+                <ul class="nav nav-tabs hidden-md hidden-lg mobilelist col-sm-12 col-xs-12" style="display: block;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0;-webkit-margin-end: 0;-webkit-padding-start: 40px">
+                    <li class="active col-sm-9 col-xs-12" style="text-align:-webkit-match-parent;display: block">
+                        <a href="#personal" data-toggle="tab" style="margin: 0; padding-top: 5px;padding-bottom: 5px;background: none;border: none;line-height: 1.42857143; cursor: auto">1.Personal Details</a>
+                    </li>
+                    <li style="display: block" class="col-sm-9 col-xs-12">
+                        <a href="#address" data-toggle="tab" style="margin: 0; padding-top: 5px;padding-bottom: 5px;background: none;border: none;line-height: 1.42857143">2.Address Details</a>
+                    </li>
+                    <li style="display: block" class="col-sm-9 col-xs-12">
+                        <a href="#uidai" data-toggle="tab" style="margin: 0; padding-top: 5px;padding-bottom: 5px;background: none;border: none;line-height: 1.42857143">3.UIDAI & Documents</a>
+                    </li>
+                    <li style="display: block" class="col-sm-9 col-xs-12">
+                        <a href="#verification" data-toggle="tab" style="margin: 0;padding-top: 5px;padding-bottom: 5px;background: none;border: none;line-height: 1.42857143">4.Verification Details</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                <span class="pull-right" style="color: red">All star(*) fields are mandatory.</span>
+            </div>
+            <div class="portlet-body">
+                <div class="tab-content">
+                    <div class="tab-pane active animated fadeInRight" id="personal">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 formBody ">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>Pre-Enrolment ID : </label>
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                        <input type="text" class="form-control" placeholder="Enter Pre-Enrolment ID">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>NPR Receipt/TIN Number :  </label>
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                        <input type="text" class="form-control" placeholder="Enter NPR Receipt/TIN Number">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 formBodySecond">
+                            <h4 class="color" align="center">Personal Details</h4>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>Full name :</label>
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                        <input type="text" class="form-control" placeholder="Enter Pre-Enrolment ID">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>Age :</label>
+                                    <div class="col-sm-7 col-md-3 col-lg-3 col-xs-7">
+                                        <input type="number" class="form-control" placeholder="years">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>Email :</label>
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                        <input type="text" class="form-control" placeholder="Enter your Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="form-group" style="margin-bottom: 20px">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>Gender :</label>
+                                    <div class="col-md-7 col-lg-7 hidden-sm hidden-xs">
+                                        <label class="radio-inline">
+                                            <input class="radioColor" type="radio" name="inlineRadioOptions"  value="option1"> Male
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="inlineRadioOptions" value="option2"> Female
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="inlineRadioOptions" value="option3"> Transgender
+                                        </label>
+                                    </div>
+                                    <div class="col-sm-12 hidden-md hidden-lg col-xs-12">
+                                        <label class="radio-inline col-sm-5 col-xs-5" style="margin-left: 10px">
+                                            <input class="radioColor" type="radio" name="inlineRadioOptions"  value="option1"> Male
+                                        </label>
+                                        <label class="radio-inline col-sm-5 col-xs-5">
+                                            <input type="radio" name="inlineRadioOptions" value="option2"> Female
+                                        </label>
+                                        <label class="radio-inline col-sm-5 col-xs-5">
+                                            <input type="radio" name="inlineRadioOptions" value="option3"> Transgender
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>Date of Birth :</label>
+                                    <div class="col-sm-4 col-md-2 col-lg-2 col-xs-4">
+                                        <div class="dropdown">
+                                            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">DD
+                                                <span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="">1</a></li>
+                                                <li><a href="">2</a></li>
+                                                <li><a href="">3</a></li>
+                                                <li><a href="">4</a></li>
+                                                <li><a href="">5</a></li>
+                                                <li><a href="">6</a></li>
+                                                <li><a href="">7</a></li>
+                                                <li><a href="">8</a></li>
+                                                <li><a href="">9</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-2 col-lg-2 col-xs-4">
+                                        <div class="dropdown">
+                                            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">MM
+                                                <span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="">Jan</a></li>
+                                                <li><a href="">Feb</a></li>
+                                                <li><a href="">Mar</a></li>
+                                                <li><a href="">Apr</a></li>
+                                                <li><a href="">May</a></li>
+                                                <li><a href="">Jun</a></li>
+                                                <li><a href="">Jul</a></li>
+                                                <li><a href="">Aug</a></li>
+                                                <li><a href="">Sep</a></li>
+                                                <li><a href="">Oct</a></li>
+                                                <li><a href="">Nov</a></li>
+                                                <li><a href="">Dec</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-3 col-lg-3 col-xs-4">
+                                        <div class="dropdown">
+                                            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">YYYY
+                                                <span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="">1991</a></li>
+                                                <li><a href="">1992</a></li>
+                                                <li><a href="">1993</a></li>
+                                                <li><a href="">1994</a></li>
+                                                <li><a href="">1995</a></li>
+                                                <li><a href="">1996</a></li>
+                                                <li><a href="">1997</a></li>
+                                                <li><a href="">1998</a></li>
+                                                <li><a href="">1999</a></li>
+                                                <li><a href="">2000</a></li>
+                                                <li><a href="">2001</a></li>
+                                                <li><a href="">2002</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>Mobile No :</label>
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                        <input type="text" class="form-control" placeholder="Enter your Mobile No">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 formBodySecond">
+                            <h4 class="color" align="center">Family Details</h4>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>Details of :</label>
+                                    <div class="col-sm-4 col-md-2 col-lg-2 col-xs-4">
+                                        <div class="dropdown">
+                                            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Father
+                                                <span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="">Father</a></li>
+                                                <li><a href="">Mother</a></li>
+                                                <li><a href="">Guardian</a></li>
+                                                <li><a href="">Husband</a></li>
+                                                <li><a href="">Wife</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-8 col-md-5 col-lg-5 col-xs-8">
+                                        <input type="text" class="form-control" placeholder="Enter Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>EID/ Aadhaar No.:</label>
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                        <input type="text" class="form-control" placeholder="Enter EID/ Aadhaar No.">
+                                    </div>
+                                </div>
+                            </div>
+                            <span style="color: red">Note :</span>&nbsp;<span>For children below 5 years Father/Mother/Guardian details are mandatory. Adults can opt to not specify this information, if they cannot/do not want to disclose.</span>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 formBodySecond" style="margin-bottom: 1%">
+                            <h4 class="color" align="center">ID Proof Upload</h4>
+                            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-4 col-lg-4 col-xs-12 control-label"><sup style="color: red">*</sup>Select ID type:</label>
+                                    <div class="col-sm-12 col-md-3 col-lg-3 col-xs-12">
+                                        <div class="dropdown">
+                                            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">select ID type
+                                                <span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="">Voter ID</a></li>
+                                                <li><a href="">Ration card</a></li>
+                                                <li><a href="">Passport</a></li>
+                                                <li><a href="">Driving Licence</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-5 col-lg-5 col-xs-12" style="padding-top: 5px">
+                                        <input type="file" name="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" align="center" style="margin-bottom: 2%">
+                            <button type="button" onclick="save()" style="background-color: #FF9933;color: #fff" class="btn">Save as Draft</button>
+                            <button type="button" id="gotoSecondStep" style="background-color: #FF9933;color: #fff" class="btn">Next <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+
+                    <!--second tab-->
+
+                    <div class="tab-pane animated fadeInRight" id="address" >
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 formBodySecond">
+                            <h4 class="color" align="center">Address Details</h4>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>Address :</label>
+                                    <div class="col-sm-3 col-md-2 col-lg-2 col-xs-3">
+                                        <div class="dropdown">
+                                            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">S/o
+                                                <span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="">S/o</a></li>
+                                                <li><a href="">D/o</a></li>
+                                                <li><a href="">W/o</a></li>
+                                                <li><a href="">H/o</a></li>
+                                                <li><a href="">C/o</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-8 col-md-5 col-lg-5 col-xs-8">
+                                        <input type="text" class="form-control" placeholder="Enter Name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>House No/ Bldg./Apt :</label>
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                        <input type="text" class="form-control" placeholder="Enter House No/ Bldg./Apt.">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>Street/Road/Lane :</label>
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                        <input type="text" class="form-control" placeholder="Enter Street/Road/Lane.">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label">Landmark :</label>
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                        <input type="text" class="form-control" placeholder="Enter Landmark">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>Area/locality/sector :</label>
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                        <input type="text" class="form-control" placeholder="Enter Area/locality/sector.">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>Village/Town/City :</label>
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                        <input type="text" class="form-control" placeholder="Enter Village/Town/City">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>Post Office :</label>
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                        <input type="text" class="form-control" placeholder="Enter Post Office">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>District :</label>
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                        <input type="text" class="form-control" placeholder="Enter District.">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label">Sub-District :</label>
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                        <input type="text" class="form-control" placeholder="Enter Sub-District ">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>State :</label>
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                        <input type="text" class="form-control" placeholder="Enter State">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>PIN CODE :</label>
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                        <input type="text" class="form-control" placeholder="Enter PIN CODE">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 formBodySecond" style="margin-bottom: 1%">
+                            <h4 class="color" align="center">Address proof Upload</h4>
+                            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                <div class="form-group">
+                                    <label class="col-sm-12 col-md-4 col-lg-4 col-xs-12 control-label"><sup style="color: red">*</sup>Select Proof type:</label>
+                                    <div class="col-sm-12 col-md-3 col-lg-3 col-xs-12">
+                                        <div class="dropdown">
+                                            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">select Proof
+                                                <span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="">Power Bill</a></li>
+                                                <li><a href="">Voter ID</a></li>
+                                                <li><a href="">Ration card</a></li>
+                                                <li><a href="">Passport</a></li>
+                                                <li><a href="">Driving Licence</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-5 col-lg-5 col-xs-12" style="padding-top: 5px">
+                                        <input type="file" name="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" align="center" style="margin-bottom: 2%">
+                            <button type="button" id="backtoFirstStep" style="background-color: #FF9933;color: #fff" class="btn"><i class="fa fa-chevron-left" aria-hidden="true"></i> Back</button>
+                            <button type="button" onclick="save()" style="background-color: #FF9933;color: #fff" class="btn">Save as Draft</button>
+                            <button type="button" id="gotoThirdStep" style="background-color: #FF9933;color: #fff" class="btn"> Next <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+
+                    <!--Third Tab-->
+
+                    <div class="tab-pane animated fadeInRight" id="uidai">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fadeInLeft" style="padding-left: 4%;padding-right: 4%">
+                            <h4 class="color" align="center">UIDAI Details</h4>
+                            <div class="form-group">
+                                <p class="col-sm-12 col-md-9 col-lg-9 col-xs-12" style="font-weight: bold"><sup style="color: red">*</sup>I have no objection to the UIDAI sharing information provided by me to the UIDAI
+                                    with agencies engaged in delivery of public services including welfare services :</p>
+                                <div class="col-sm-12 col-md-3 col-lg-3 col-xs-12">
+                                    <label class="radio-inline">
+                                        <input class="radioColor" type="radio" name="inlineRadioOptions"  value="option1"> Yes
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="inlineRadioOptions" value="option2"> No
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <p class="col-sm-12 col-md-12 col-lg-12 col-xs-12" style="font-weight: bold"><sup style="color: red">*</sup>Select one of the below (OPTIONAL) <span style="color: red">( This data cannot be Corrected after Enrolment)</span></p>
+                                <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 paddingcontrol">
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="inlineRadioOptions" value="option2">
+                                            I want the UIDAI to facilitate opening of a new Bank/Post Office Account linked to my
+                                            Aadhaar Number information for this purpose.
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 paddingcontrol">
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="inlineRadioOptions" value="option">
+                                            I have no objection to linking my present bank account provided here to my Aadhaar number.
+                                        </label>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="padding-top: 1%">
+                                        <div class="form-group">
+                                            <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>State:</label>
+                                            <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                                <input type="text" class="form-control" placeholder="Enter State">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>Branch :</label>
+                                            <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                                <input type="text" class="form-control" placeholder="Enter Bank Name/Branch ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="padding-top: 1%">
+                                        <div class="form-group">
+                                            <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>IFSC Code :</label>
+                                            <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                                <input type="text" class="form-control" placeholder="Enter IFSC Code ">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>Account No. :</label>
+                                            <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                                <input type="text" class="form-control" placeholder="Enter Account No.">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" align="center" style="margin-bottom: 2%">
+                            <button type="button" id="backtoSecondStep" style="background-color: #FF9933;color: #fff" class="btn"> <i class="fa fa-chevron-left" aria-hidden="true"></i> Back</button>
+                            <button type="button" onclick="save()" style="background-color: #FF9933;color: #fff" class="btn">Save as Draft</button>
+                            <button type="button" id="gotoForthStep" style="background-color: #FF9933;color: #fff" class="btn">Next <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                    <div class="tab-pane animated fadeInRight" id="verification">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-left: 4%;padding-right: 4%">
+                            <h4 class="color" align="center">Verification Details</h4>
+                            <div class="form-group" style="margin-bottom: 20px">
+                                <label class="col-sm-12 col-md-2 col-lg-2 col-xs-12 control-label" style="text-align: center !important;"><sup style="color: red">*</sup>Verification Type:</label>
+                                <div class="col-sm-12 col-md-10 col-lg-10 col-xs-12">
+                                    <label class="radio-inline hidden-sm hidden-xs">
+                                        <input class="radioColor" type="radio" name="inlineRadioOptions"  value="option1"> Document Based
+                                    </label>
+                                    <label class="radio-inline hidden-md hidden-lg" style="margin-left: 10px">
+                                        <input class="radioColor" type="radio" name="inlineRadioOptions"  value="option1"> Document Based
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="inlineRadioOptions" value="option2"> Introducer Based
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="inlineRadioOptions" value="option3"> Head of Family
+                                    </label>
+                                </div>
+                            </div>
+                            <span style="color: red">Note :</span>&nbsp;<span>Select only one of the above. Select Introducer or Head of Family only if you do not possess any documentary proof of identity and/or address. Introducer and Head of Family details are not required in case of Document based Verification.</span>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top: 1%">
+                                <p style="font-weight: bold">For Document Based :</p>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+                                    <div class="form-group">
+                                        <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label">POI :</label>
+                                        <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                            <input type="text" class="form-control" >
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>DOB:</label>
+                                        <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                            <input type="text" class="form-control" >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+                                    <div class="form-group">
+                                        <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label">POA:</label>
+                                        <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                            <input type="text" class="form-control" >
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label">POR:</label>
+                                        <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top: 1%">
+                                <p style="font-weight: bold">For Introducer Based:</p>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    <div class="form-group">
+                                        <label class="col-sm-12 col-md-5 col-lg-5 col-xs-12 control-label"><sup style="color: red">*</sup>Aadhar No:</label>
+                                        <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                            <input type="text" class="form-control" placeholder="Enter Aadhar no">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top: 1%">
+                                <p style="font-weight: bold">For Head of Family Based:</p>
+                                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                                    <div class="form-group" style="margin-bottom: 20px">
+                                        <label class="col-sm-12 col-md-3 col-lg-3 col-xs-12 control-label"><sup style="color: red">*</sup>Details of:</label>
+                                        <div class="col-sm-12 col-md-7 col-lg-7 col-xs-12">
+                                            <label class="radio-inline hidden-sm hidden-xs">
+                                                <input class="radioColor" type="radio" name="inlineRadioOptions"  value="option1"> Father
+                                            </label>
+                                            <label class="radio-inline hidden-md hidden-lg" style="margin-left: 10px">
+                                                <input class="radioColor" type="radio" name="inlineRadioOptions"  value="option1"> Father
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="inlineRadioOptions" value="option2"> Mother
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="inlineRadioOptions" value="option3"> Guardian
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="inlineRadioOptions" value="option3"> Husband
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="inlineRadioOptions" value="option3"> Wife
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                                    <div class="form-group">
+                                        <label class="col-sm-12 col-md-3 col-lg-3 col-xs-12 control-label"><sup style="color: red">*</sup>HoF EId/Aadhaar No.:</label>
+                                        <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
+                                            <input type="text" class="form-control" placeholder="Enter HoF EId/Aadhaar No.">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" align="center" style="margin-bottom: 2%">
+                            <button type="button" id="backtoThirdStep" style="background-color: #FF9933;color: #fff" class="btn"><i class="fa fa-chevron-left" aria-hidden="true"></i> Back</button>
+                            <button type="button" onclick="save()" style="background-color: #FF9933;color: #fff" class="btn">Save as Draft</button>
+                            <button type="button" onclick="save()" style="background-color: #FF9933;color: #fff" class="btn">SUBMIT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    $(function(){
+
+        $('#gotoSecondStep').click(function(e){
+            e.preventDefault();
+            $('#mytabs a[href="#address"]').tab('show');
+
+        })
+    });
+    $(function(){
+
+        $('#gotoThirdStep').click(function(e){
+            e.preventDefault();
+            $('#mytabs a[href="#uidai"]').tab('show');
+        })
+    });
+    $(function(){
+
+        $('#gotoForthStep').click(function(e){
+            e.preventDefault();
+            $('#mytabs a[href="#verification"]').tab('show');
+        })
+
+    });
+    $(function(){
+
+        $('#backtoFirstStep').click(function(e){
+            e.preventDefault();
+            $('#mytabs a[href="#personal"]').tab('show');
+        })
+
+    });
+    $(function(){
+
+        $('#backtoSecondStep').click(function(e){
+            e.preventDefault();
+            $('#mytabs a[href="#address"]').tab('show');
+        })
+
+    });
+    $(function(){
+
+        $('#backtoThirdStep').click(function(e){
+            e.preventDefault();
+            $('#mytabs a[href="#uidai"]').tab('show');
+        })
+
+    })
+
+    function save() {
+        alert("This is only UI, Backend not developed");
+    }
+
+</script>
+<style>
+    .container{
+        width: 90%;
+        margin: 0 auto !important;
+        margin-bottom: 3% !important;
+    }
+    .border{
+        border: 2px solid #FF9933;
+        margin-top: 8px;
+    }
+
+    .border p{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .border li:hover{
+        border-bottom-width: 4px;border-bottom-style: solid;border-bottom-color: #ffbf80
+    }
+    .border li.active{
+        border-bottom-width: 4px;border-bottom-style: solid;border-bottom-color: #FF9933;
+    }
+    .border .mobilelist li.active{
+        border: 1px solid #FF9933;
+    }
+    .border .mobilelist li.active a{
+        color: #000 !important;
+    }
+    .border li a{
+        color: #666 ;
+    }
+    .border .mobilelist li a{
+        color: #666;
+    }
+    .border li.active a{
+        color: #000 !important;
+
+    }
+    .border .paddingcontrol{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .border .color{
+        color:#FF9933 ;
+        margin-bottom: 2%;
+    }
+    .border .formBody{
+        margin-top: 2%;
+        padding-bottom: 1%;
+        border-bottom: 2px dotted #FF9933;
+    }
+    .border .formBody2{
+        margin-top: 2%;
+        padding-bottom: 3%;
+        border-bottom: 2px dotted #FF9933;
+    }
+    .border .formBodySecond{
+        margin-top: 1%;
+        padding-bottom: 1%;
+    }
+    .border .form-horizontal .form-group .form-control:focus{
+        border-color: #ffbf80;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px  #ffd9b3;
+        outline: 0 none;
+        text-transform:uppercase;
+    }
+    .border li.active a .badgeStyle{
+        border:1px solid #ff8000;color: #fff;background-color: #ff8000;margin-bottom: 5px;
+    }
+    .border li a .badgeStyle{
+        border:1px solid #ff8000;color: #ff8000;background-color: #fff;margin-bottom: 5px;
+    }
+    input[type="radio"]:checked:before {
+        content: "";
+        display: block;
+        position: relative;
+        top: 3px;
+        left: 3px;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #FF9933;
+    }
+    .animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+
+    @-webkit-keyframes fadeInRight {
+        0% {
+            opacity: 0.7;
+            -webkit-transform: translateX(10px);
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: translateX(0);
+        }
+    }
+
+    @keyframes fadeInRight {
+        0% {
+            opacity: 0.7;
+            transform: translateX(10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .fadeInRight {
+        -webkit-animation-name: fadeInRight;
+        animation-name: fadeInRight;
+    }
+</style>
+</body>
+</html>
